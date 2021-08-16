@@ -28,7 +28,7 @@
             type: 'line',
             color: '#006CBA',
             colorDark: '#0094FF',
-            lineWidth: 0.1,
+            lineWidth: 0.2,
             tooltip: [
                 'Numbers along a lockout line must not be between or equal to the numbers in the diamond ends.',
                 'These endpoints must differ by 4 or greater. [For sizes other than 9, these differ by (size / 2) rounded down.]',
