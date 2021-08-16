@@ -130,7 +130,7 @@
                                 if ((n <= outerCell0.value && n >= outerCell1.value) || (n <= outerCell1.value && n >= outerCell0.value)) {
                                     return false;
                                 }
-                            } else if ( Math.abs(outerCell0.value - outerCell1.value) < lockoutDiff) {
+                            } else if (outerCell0.value && outerCell1.value && Math.abs(outerCell0.value - outerCell1.value) < lockoutDiff) {
                                 return false;
                             }
                         }
